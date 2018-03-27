@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-dom.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      
+      // you can put your code here or include them as another script tag.
+
+    </script>
+  </body>
+</html>

@@ -1,13 +1,10 @@
 import React from "react";
-import { Heading, Slide, Text } from "spectacle";
+import { Heading, Slide, Text, Image } from "spectacle";
+
+const image = require('../../../../assets/react_home.png')
 
 export default (
   <Slide transition={["zoom"]} bgColor="primary">
-    <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-      React
-    </Heading>
-    <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-      a JavaScript library for building user interfaces
-    </Text>
+    <Image src={image} />
   </Slide>    
 )

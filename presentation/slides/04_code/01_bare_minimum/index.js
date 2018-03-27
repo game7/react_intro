@@ -9,6 +9,7 @@ export default (
       margin="20px auto"
       overflow = "overflow"
       style={{fontSize: '.5em'}}
+      theme="external"
     />
   </Slide>  
 )  

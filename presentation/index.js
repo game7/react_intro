@@ -20,15 +20,25 @@ import createTheme from "spectacle/lib/themes/default";
 // Require CSS
 require("normalize.css");
 
+// const theme = createTheme({
+//   primary: "white",
+//   secondary: "black",
+//   tertiary: "#03A9FC",
+//   quarternary: "#CECECE"
+// }, {
+//   primary: "Montserrat",
+//   secondary: "Helvetica"
+// });
+
 const theme = createTheme({
-  primary: "white",
-  secondary: "#1F2022",
-  tertiary: "#03A9FC",
-  quarternary: "#CECECE"
+  primary: '#61dafb'
 }, {
   primary: "Montserrat",
   secondary: "Helvetica"
 });
+
+// import createTheme from 'spectacle-theme-nova';
+// const theme = createTheme();
 
 import intro      from './slides/01_intro';
 import overview   from './slides/02_overview';
